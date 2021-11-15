@@ -7,12 +7,12 @@ from flask_login import login_user, current_user, logout_user, login_required
 
 @app.route('/home')
 def home():
-    return render_template('index.html')
+    return render_template('home.html')
 
 
 @app.route('/')
 def home_alt():
-    return render_template('index.html')
+    return render_template('home.html')
 
 
 @app.route('/about')
